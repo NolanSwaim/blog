@@ -1,6 +1,6 @@
 mixin replyForm(comment)
     div.reply-form
-        form(action=`/comment/${comment.id}/reply/create` method='post)
+        form(action=`/comment/${comment.id}/reply/create` method='post')
             div.input-form-row
                 div.input-container
                     input(type="text" name="author_name" id="author_name" required=true placeholder="Your Name")
